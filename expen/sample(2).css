@@ -1,0 +1,80 @@
+* {
+  margin: auto;
+  background-color: cadetblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: bisque;
+  padding: 2rem;
+}
+input {
+  padding: 0.5rem;
+  margin: 1rem;
+  border: none;
+  background-color: darkslategrey;
+  color: white;
+  font-size: 1em;
+}
+label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 100;
+  font-size: 1.5rem;
+}
+#namehold {
+  width: 90%;
+  border-radius: 2px;
+  border: solid black;
+}
+#birthday {
+  width: 25%;
+  border-radius: 2px;
+  border: solid black;
+  color: aliceblue;
+}
+#amount {
+  width: 10%;
+  border-radius: 2px;
+  border: solid black;
+}
+
+.press {
+  display: flex;
+}
+#pressbtn {
+  justify-content: space-around;
+  width: 6rem;
+  height: 2rem;
+  color: aliceblue;
+  background-color: #4caf50;
+}
+#pressbtn:hover {
+  background-color: darkgreen;
+}
+
+.tabular {
+  padding: 2rem;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+#delbtn {
+  background-color: #4caf50;
+  color: #dddddd;
+}
